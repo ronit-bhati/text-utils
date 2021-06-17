@@ -1,0 +1,86 @@
+*{
+    overflow-x: hidden;
+}
+
+.alert{
+    position: absolute;
+    width: 100vw;
+}
+
+.input_title {
+    margin-bottom: 10px;
+}
+
+.form-switch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 8px;
+}
+
+.allButtons {
+    display: inline-flex;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+
+.choosing-buttons {
+    margin-left: 10vw;
+}
+
+.main-screen {
+    padding: 0;
+}
+
+.text-toEnter {
+    padding: 0px 20px;
+    padding-top: 13vh;
+}
+
+.itsFooter {
+    display: flex;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    bottom: 0;
+}
+
+.right-arrow{
+    position: fixed;
+    bottom: 2vh;
+    right: 15vw;
+}
+
+.github{
+    position: fixed;
+    bottom: 2vh;
+    right: 12vw;
+}
+
+.twitter{
+    position: fixed;
+    bottom: 2vh;
+    right: 9vw;
+}
+
+.facebook{
+    position: fixed;
+    bottom: 2vh;
+    right: 6vw;
+}
+
+.insta{
+    position: fixed;
+    bottom: 2vh;
+    right: 3vw;
+}
+
+.final-button {
+    padding: 15px 20px;
+}

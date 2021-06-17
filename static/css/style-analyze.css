@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+
+.result {
+    margin: 0;
+    padding: 0;
+}
+
+.alert {
+    width: 100vw;
+    margin-top: 9vh;
+    margin-bottom: 0;
+}
+
+pre {
+    font-family: 'Merriweather', serif;
+    font-size: large;
+}
+
+.output {
+    width: 100vw;
+    height: auto;
+    margin: 20px;
+}
+
+.right-arrow{
+    position: fixed;
+    bottom: 2vh;
+    right: 15vw;
+}
+
+.insta {
+    position: fixed;
+    bottom: 2vh;
+    right: 3vw;
+}
+
+.github {
+    position: fixed;
+    bottom: 2vh;
+    right: 12vw;
+}
+
+.twitter {
+    position: fixed;
+    bottom: 2vh;
+    right: 9vw;
+}
+
+.facebook {
+    position: fixed;
+    bottom: 2vh;
+    right: 6vw;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    bottom: 0;
+}
