@@ -1,77 +1,19 @@
+{% extends 'base.html' %}
 {% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/style-analyze.css' %}"> {% endblock css %}
+{% block title %}Text Utils{% endblock title %}
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/style-analyze.css' %}">
-    <link rel="icon" href="{% static 'icons/favicon.ico' %}">
-
-    <title>Text Utils</title>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">Text Utils</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container-fluid result">
-        <div class="alert alert-warning" role="alert">
-            <strong>Thanks for using our website!</strong> Your text is modified as per your choice now
-        </div>
-        <div class="output">
-            <h3>Your Analyzed text - {{ purpose }}</h3>
-            <p>
-            <pre>--> {{analyzed_text}}</pre>
-            </p>
-        </div>
+{% block body %}
+<div class="container-fluid result">
+    <div class="alert alert-warning" role="alert">
+        <strong>Thanks for using our website!</strong> Your text is modified as per your choice now
     </div>
-    <footer>
-        <div class="footer bg-dark">
-            Copyright &copy; TextUtils.in
-            <img class="right-arrow" src="{% static 'icons/right.svg' %}" alt="->">
-            <a class="github" href="https://github.com/ronit-github"><img src="{% static 'icons/github.svg' %}"
-                    alt="github"></a>
-            <a class="twitter" href="https://twitter.com/ronit_bhati_"><img src="{% static 'icons/twitter.svg' %}"
-                    alt="twitter"></a>
-            <a class="facebook" href="https://www.facebook.com/ronit.bhati.9235/"><img
-                    src="{% static 'icons/facebook.svg' %}" alt="facebook"></a>
-            <a class="insta" href="https://www.instagram.com/ronit_bhati_/"><img
-                    src="{% static 'icons/instagram.svg' %}" alt="instagram"></a>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+    <div class="output">
+        <h3>Your Analyzed text - {{ purpose }}</h3>
+        <p>
+        <pre>--> {{analyzed_text}}</pre>
+        </p>
+    </div>
+</div>
+{% endblock body %}
