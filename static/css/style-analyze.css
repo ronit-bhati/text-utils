@@ -1,6 +1,8 @@
 .result {
     margin: 0;
     padding: 0;
+    margin-bottom: 5vh;
+    margin-top: 9vh;
 }
 
 .alert {
@@ -13,6 +15,6 @@ pre {
     font-size: large;
 }
 
-h3{
-    height: 35px;
+.heading{
+    height: 50px;
 }

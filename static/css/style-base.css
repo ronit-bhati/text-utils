@@ -2,6 +2,13 @@
     overflow-x: hidden;
 }
 
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
 .itsFooter {
     display: flex;
     position: fixed;
