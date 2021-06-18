@@ -9,10 +9,10 @@
     <div class="alert alert-warning" role="alert">
         <strong>Thanks for using our website!</strong> Your text is modified as per your choice now
     </div>
-    <div class="output">
+    <div class="container-fluid output">
         <h3>Your Analyzed text - {{ purpose }}</h3>
         <p>
-        <pre>--> {{analyzed_text}}</pre>
+        <pre><img src="{% static 'icons/arrow-right.svg' %}" alt="-->"> {{analyzed_text}}</pre>
         </p>
     </div>
 </div>

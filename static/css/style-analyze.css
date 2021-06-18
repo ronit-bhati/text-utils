@@ -5,16 +5,14 @@
 
 .alert {
     width: 100vw;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 pre {
-    font-family: 'Merriweather', serif;
+    font-family: Arial, sans-serif;
     font-size: large;
 }
 
-.output {
-    width: 100vw;
-    height: auto;
-    margin: 20px;
+h3{
+    height: 35px;
 }
