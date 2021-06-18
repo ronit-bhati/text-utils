@@ -14,7 +14,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="icon" href="{% static 'favicon.ico' %}">
+    <link rel="icon" href="{% static 'icons/favicon.ico' %}">
 
     <title>Text Utils</title>
     <style>
@@ -42,8 +42,39 @@
             width: 100vw;
             height: 8vh;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
+            padding-left: 2vw;
             bottom: 0;
+        }
+
+        .right-arrow {
+            position: fixed;
+            bottom: 2vh;
+            right: 15vw;
+        }
+
+        .github {
+            position: fixed;
+            bottom: 2vh;
+            right: 12vw;
+        }
+
+        .twitter {
+            position: fixed;
+            bottom: 2vh;
+            right: 9vw;
+        }
+
+        .facebook {
+            position: fixed;
+            bottom: 2vh;
+            right: 6vw;
+        }
+
+        .insta {
+            position: fixed;
+            bottom: 2vh;
+            right: 3vw;
         }
     </style>
 </head>
@@ -84,6 +115,15 @@
     <footer>
         <div class="footer bg-dark">
             Copyright &copy; TextUtils.in
+            <img class="right-arrow" src="{% static 'icons/right.svg' %}" alt="->">
+            <a class="github" href="https://github.com/ronit-github"><img src="{% static 'icons/github.svg' %}"
+                    alt="github"></a>
+            <a class="twitter" href="https://twitter.com/ronit_bhati_"><img src="{% static 'icons/twitter.svg' %}"
+                    alt="twitter"></a>
+            <a class="facebook" href="https://www.facebook.com/ronit.bhati.9235/"><img
+                    src="{% static 'icons/facebook.svg' %}" alt="facebook"></a>
+            <a class="insta" href="https://www.instagram.com/ronit_bhati_/"><img
+                    src="{% static 'icons/instagram.svg' %}" alt="instagram"></a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
