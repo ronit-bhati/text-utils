@@ -1,6 +1,11 @@
 .alert{
     position: absolute;
     width: 100vw;
+    margin-top: 56px;
+}
+
+form{
+    margin-top: 50px;
 }
 
 .input_title {
@@ -36,5 +41,5 @@
 }
 
 .final-button {
-    padding: 15px 20px;
+    margin-left: 22px;
 }

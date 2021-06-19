@@ -14,39 +14,34 @@
     position: fixed;
     color: white;
     width: 100vw;
-    height: 8vh;
+    height: 50px;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 2vw;
+    padding-left: 20px;
+    padding-right: 20px;
     bottom: 0;
 }
 
 .right-arrow{
     position: fixed;
-    bottom: 2vh;
-    right: 15vw;
+    bottom: 11px;
+    right: 190px;
 }
 
 .github{
     position: fixed;
-    bottom: 2vh;
-    right: 12vw;
+    bottom: 11px;
+    right: 155px;
 }
 
 .twitter{
     position: fixed;
-    bottom: 2vh;
-    right: 9vw;
+    bottom: 11px;
+    right: 115px;
 }
 
 .facebook{
     position: fixed;
-    bottom: 2vh;
-    right: 6vw;
-}
-
-.insta{
-    position: fixed;
-    bottom: 2vh;
-    right: 3vw;
+    bottom: 11px;
+    right: 75px;
 }

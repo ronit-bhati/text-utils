@@ -1,6 +1,13 @@
-.alert {
-    margin-bottom: 0;
-    }
+.alert{
+    position: absolute;
+    width: 100vw;
+    margin-top: 56px;
+}
+
+.error-text{
+    margin-top: 125px;
+    height: 300px;
+}
 
 .result {
     width: 100vw;
