@@ -1,4 +1,3 @@
-# I have created this file - ronit
 from django import http
 from django.http import HttpResponse
 from django.shortcuts import render
