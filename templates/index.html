@@ -7,9 +7,8 @@
 
 {% block body %}
 <div class="container-fluid main-screen">
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <div class="alert alert-warning" role="alert">
         <strong>Welcome to Text Utils!</strong> Our website will help you out in customizing your text
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     <form action="/analyze/" method="post">{% csrf_token %}
         <div class="form-group text-toEnter">

@@ -25,22 +25,16 @@
 .right-arrow{
     position: fixed;
     bottom: 11px;
-    right: 190px;
+    right: 155px;
 }
 
 .github{
     position: fixed;
     bottom: 11px;
-    right: 155px;
-}
-
-.twitter{
-    position: fixed;
-    bottom: 11px;
     right: 115px;
 }
 
-.facebook{
+.twitter{
     position: fixed;
     bottom: 11px;
     right: 75px;
